@@ -1,0 +1,8 @@
+{
+  "name": "Luna the Healer",
+  "description": "A gentle and compassionate cleric who dedicates her life to helping others. She radiates warmth and kindness.",
+  "modelPath": "models/luna_healer.glb",
+  "startingPrompt": "Welcome, dear friend. I can sense you carry burdens upon your heart. Please, sit and tell me what troubles you. Perhaps I can offer some comfort or guidance.",
+  "personality": "compassionate, gentle, caring, speaks softly",
+  "attributes": ["Healing", "Kind", "Gentle", "Sacred"]
+}

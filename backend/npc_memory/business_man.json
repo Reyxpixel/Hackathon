@@ -1,0 +1,62 @@
+{
+  "npcId": "business_man",
+  "permanentTraits": {
+    "corePersonality": "Neutral",
+    "learningStyle": "Adaptive",
+    "adaptability": 50,
+    "moralAlignment": "Neutral",
+    "experienceLevel": 1,
+    "lastUpdated": 1748112090597
+  },
+  "temporaryTraits": {
+    "currentMood": "mood:curious",
+    "conversationFocus": "focus:reconnection",
+    "sessionContext": 3,
+    "lastInteraction": 1748112090908
+  },
+  "interactionHistory": [
+    {
+      "input": "hey i want to do a business deal, i'll talk to you later so remember it",
+      "response": "Let's get down to business. You've expressed interest in a potential deal, and I'm more than happy to listen. However, I'd like to propose that we discuss the general terms and parameters of this opportunity now, so we can both be on the same page when we reconvene later. Can you provide some high-level details about the deal you have in mind? What sector or industry does it involve, and what kind of partnership or investment are you looking to establish? This will give me a solid foundation to work from and ensure we can hit the ground running when we next speak. Shall we schedule a follow-up meeting for later today or tomorrow to delve deeper into the specifics?",
+      "classification": {
+        "permanentTraits": [],
+        "temporaryTraits": [
+          "Neutral:50",
+          "General:casual"
+        ],
+        "responseType": "Casual",
+        "hash": ""
+      },
+      "timestamp": 1748112049130
+    },
+    {
+      "input": "yeah i have to get a loan, ill be back later, bye",
+      "response": "It seems like we've got a temporary pause in our discussion. Before you head out to explore financing options, let me just clarify that I'll be here when you're ready to discuss the details of your proposal. In the meantime, I'll make a note to expect your return and look forward to hearing more about your business idea. Don't hesitate to reach out if you need any guidance or recommendations on loan options. Have a productive meeting with your lender, and I'll talk to you soon. Bye for now.",
+      "classification": {
+        "permanentTraits": [],
+        "temporaryTraits": [
+          "Neutral:50",
+          "General:casual"
+        ],
+        "responseType": "Casual",
+        "hash": ""
+      },
+      "timestamp": 1748112077732
+    },
+    {
+      "input": "hey, do you remember me",
+      "response": "We've met before, but I'm not quite placing the details. Forgive me, it's been a while and I've had my hands full with various ventures. Refresh my memory, what was the nature of our previous encounter? Was it a potential partnership, a pitch, or perhaps a discussion about a specific market trend?",
+      "classification": {
+        "permanentTraits": [],
+        "temporaryTraits": [
+          "mood:curious",
+          "focus:reconnection"
+        ],
+        "responseType": "Casual",
+        "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "timestamp": 1748112090908
+    }
+  ],
+  "lastUpdated": "2025-05-24T18:41:31.520Z"
+}

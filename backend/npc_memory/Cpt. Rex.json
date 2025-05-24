@@ -1,0 +1,59 @@
+{
+  "npcId": "Cpt. Rex",
+  "permanentTraits": {
+    "corePersonality": "Neutral",
+    "learningStyle": "Adaptive",
+    "adaptability": 50,
+    "moralAlignment": "Neutral",
+    "experienceLevel": 1,
+    "lastUpdated": 1748122583740
+  },
+  "temporaryTraits": {
+    "currentMood": "Curious",
+    "conversationFocus": "General",
+    "sessionContext": 2,
+    "lastInteraction": 1748122584127
+  },
+  "interactionHistory": [
+    {
+      "input": "Yot",
+      "response": "It seems like there was a miscommunication. I didn't quite catch that, recruit. Could you please restate your objective or provide more context? I want to make sure I understand the situation correctly so we can work together efficiently, Captain Rex.",
+      "classification": {
+        "permanentTraits": [],
+        "temporaryTraits": [
+          "Neutral:50",
+          "General:casual"
+        ],
+        "responseType": "Casual",
+        "hash": ""
+      },
+      "timestamp": 1748122426439
+    },
+    {
+      "input": "you backm mf",
+      "response": "I'm not sure what you meant by that, Captain Rex. It seems like there might have been a miscommunication. Could you please clarify or rephrase your statement so I can better understand and respond accordingly?",
+      "classification": {
+        "permanentTraits": [],
+        "temporaryTraits": [
+          "Neutral:50",
+          "General:casual"
+        ],
+        "responseType": "Casual",
+        "hash": ""
+      },
+      "timestamp": 1748122435720
+    },
+    {
+      "input": "who are you",
+      "response": "Captain Rex, I'm an... artificial intelligence, I suppose you could say. I'm still learning and figuring things out, but I'm here to assist and provide information to the best of my abilities. I don't have a personal name, but I'm happy to chat with you and help with whatever objectives you have in mind. What kind of operation are we talking about, Captain? I'm curious to learn more.",
+      "classification": {
+        "permanentTraits": [],
+        "temporaryTraits": [],
+        "responseType": "Info",
+        "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "timestamp": 1748122584127
+    }
+  ],
+  "lastUpdated": "2025-05-24T21:36:24.588Z"
+}

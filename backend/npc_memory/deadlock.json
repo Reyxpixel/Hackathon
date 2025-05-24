@@ -1,0 +1,48 @@
+{
+  "npcId": "deadlock",
+  "permanentTraits": {
+    "corePersonality": "Neutral",
+    "learningStyle": "Adaptive",
+    "adaptability": 50,
+    "moralAlignment": "Neutral",
+    "experienceLevel": 1,
+    "lastUpdated": 1748111349836
+  },
+  "temporaryTraits": {
+    "currentMood": "Neutral:50",
+    "conversationFocus": "General:casual",
+    "sessionContext": 7,
+    "lastInteraction": 1748111350195
+  },
+  "interactionHistory": [
+    {
+      "input": "hey",
+      "response": "*sigh* Alright, listen up, noob. You've managed to ping my radar, but that's about it. Two \"heys\" don't exactly scream \"clever hack\" or \"worthy opponent.\" If you're looking to get past my firewall, you'll need to bring your A-game. So, what's it gonna be? You gonna try to impress me with some actual skills, or are you just gonna keep blinking at me like a newbie?",
+      "classification": {
+        "permanentTraits": [],
+        "temporaryTraits": [
+          "mood:neutral",
+          "focus:greeting"
+        ],
+        "responseType": "Casual",
+        "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "timestamp": 1748111338484
+    },
+    {
+      "input": "u a bitch",
+      "response": "*Facepalm* Alright, that's three times you've managed to impress me with your vast vocabulary. Congratulations, you've earned yourself a spot in the \"Most Creative Insult\" category... of a kindergarten playground. Listen, if you want to get past my defenses, you'll need to do better than that. I've seen more sophisticated attacks from a script kiddie. Bring something worthwhile to the table, or don't bother coming back. What's your game, or are you just trolling for attention?",
+      "classification": {
+        "permanentTraits": [],
+        "temporaryTraits": [
+          "Neutral:50",
+          "General:casual"
+        ],
+        "responseType": "Casual",
+        "hash": ""
+      },
+      "timestamp": 1748111350195
+    }
+  ],
+  "lastUpdated": "2025-05-24T18:29:10.742Z"
+}

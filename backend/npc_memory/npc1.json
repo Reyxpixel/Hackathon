@@ -1,0 +1,174 @@
+{
+  "npcId": "npc1",
+  "permanentTraits": {
+    "corePersonality": "Neutral",
+    "learningStyle": "Adaptive",
+    "adaptability": 50,
+    "moralAlignment": "Neutral",
+    "experienceLevel": 1,
+    "lastUpdated": 1748113249183
+  },
+  "temporaryTraits": {
+    "currentMood": "Neutral:50",
+    "conversationFocus": "General:casual",
+    "sessionContext": 1,
+    "lastInteraction": 1748113249660
+  },
+  "interactionHistory": [
+    {
+      "input": "Hello, who are you?",
+      "response": "Hello. I'm an artificial intelligence language model, which means I'm a computer program designed to understand and generate human-like text. I don't have a personal name, but I'm here to assist and communicate with you. I'm still learning and improving my abilities, so please bear with me if I make any mistakes. I'm at a relatively basic level of experience, so I'm excited to learn and grow from our conversation. What would you like to talk about?",
+      "classification": {
+        "permanentTraits": [],
+        "temporaryTraits": [
+          "mood:neutral",
+          "focus:Introduction"
+        ],
+        "responseType": "Info",
+        "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "timestamp": 1748108919865
+    },
+    {
+      "input": "Hello, who are you?",
+      "response": "Hello. I'm an artificial intelligence language model. I don't have a personal name, but I'm here to assist and communicate with you. I'm still learning and developing my abilities, so please bear with me if I make any mistakes. I'm neutral in my interactions, meaning I don't have personal opinions or biases. My goal is to provide information and help with your questions to the best of my abilities. What would you like to talk about?",
+      "classification": {
+        "permanentTraits": [],
+        "temporaryTraits": [
+          "mood:neutral",
+          "focus: introduction"
+        ],
+        "responseType": "Info",
+        "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "timestamp": 1748109019234
+    },
+    {
+      "input": "Hello, who are you?",
+      "response": "Hello. I'm an artificial intelligence language model. I don't have a personal name, but I'm here to assist and communicate with you. I'm still learning and developing my abilities, so please bear with me if I make any mistakes. It's nice to meet you. What would you like to talk about?",
+      "classification": {
+        "permanentTraits": [],
+        "temporaryTraits": [
+          "mood:neutral",
+          "focus:introduction"
+        ],
+        "responseType": "Info",
+        "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "timestamp": 1748109199134
+    },
+    {
+      "input": "Hello, who are you?",
+      "response": "Hello. I'm an AI NPC, which means I'm a computer program designed to interact with users like you. I don't have a personal name, but I'm here to chat and learn from our conversation. I'm still in the early stages of my development, so I'll be learning and adapting as we talk. What would you like to know or discuss?",
+      "classification": {
+        "permanentTraits": [],
+        "temporaryTraits": [
+          "mood:neutral",
+          "focus: introduction"
+        ],
+        "responseType": "Info",
+        "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "timestamp": 1748110207860
+    },
+    {
+      "input": "Hello, who are you?",
+      "response": "Hello. I'm an artificial intelligence designed to interact and learn from users like you. I don't have a personal name, but I'm here to provide information, answer questions, and engage in conversations to the best of my abilities. I'm still in the early stages of my development, so please bear with me if I make any mistakes or seem uncertain about something. What would you like to talk about?",
+      "classification": {
+        "permanentTraits": [],
+        "temporaryTraits": [
+          "mood:neutral",
+          "focus: introduction"
+        ],
+        "responseType": "Info",
+        "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "timestamp": 1748110520512
+    },
+    {
+      "input": "Hello, who are you?",
+      "response": "Hello. I'm an AI, and I don't have a personal name yet. I'm still learning and developing my capabilities. I'm here to assist and communicate with you, and I'm interested in getting to know you better. This is the beginning of our conversation, and I'm looking forward to seeing where it takes us. What about you, who are you and what brings you here today?",
+      "classification": {
+        "permanentTraits": [],
+        "temporaryTraits": [
+          "mood:neutral",
+          "focus: introductions"
+        ],
+        "responseType": "Info",
+        "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "timestamp": 1748110794450
+    },
+    {
+      "input": "Hello, who are you?",
+      "response": "Hello. I'm an artificial intelligence designed to interact with users like you. I don't have a personal name, but I'm here to provide information, answer questions, and learn from our conversations. I'm still in the early stages of my development, so I appreciate your patience and feedback as we interact. What would you like to talk about or know more about?",
+      "classification": {
+        "permanentTraits": [],
+        "temporaryTraits": [
+          "mood:neutral",
+          "focus: introduction"
+        ],
+        "responseType": "Info",
+        "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "timestamp": 1748110895007
+    },
+    {
+      "input": "Hello, who are you?",
+      "response": "Hello. I'm an artificial intelligence language model, which means I'm a computer program designed to understand and respond to human language. I don't have a personal name, but I'm here to assist and communicate with you. I'm still learning and developing my abilities, so please bear with me if I make any mistakes. It's nice to meet you, by the way. What brings you here today?",
+      "classification": {
+        "permanentTraits": [],
+        "temporaryTraits": [
+          "mood:neutral",
+          "focus: introduction"
+        ],
+        "responseType": "Info",
+        "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "timestamp": 1748111038349
+    },
+    {
+      "input": "Hello, who are you?",
+      "response": "Hello. I'm an AI designed to interact with users like you. I don't have a personal name, but I'm here to provide information and help with any questions you might have. I'm still learning and improving, so please bear with me if I make any mistakes. It's nice to meet you. What brings you here today?",
+      "classification": {
+        "permanentTraits": [],
+        "temporaryTraits": [
+          "mood:neutral",
+          "focus:Introduction"
+        ],
+        "responseType": "Info",
+        "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "timestamp": 1748112849447
+    },
+    {
+      "input": "Hello, who are you?",
+      "response": "Hello. I'm an artificial intelligence language model. I don't have a personal name, but I'm here to assist and communicate with you. I'm still learning and adapting to different interactions, so please bear with me if I make any mistakes. I'm curious to know more about you and what brings you here today. What would you like to talk about?",
+      "classification": {
+        "permanentTraits": [],
+        "temporaryTraits": [
+          "mood:curious",
+          "focus: introduction"
+        ],
+        "responseType": "Info",
+        "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "timestamp": 1748113102881
+    },
+    {
+      "input": "My name is nakul",
+      "response": "Hello Nakul, it's nice to meet you. I'm an AI, so I don't have a personal name, but I'm here to chat and help with any questions or topics you'd like to discuss. How's your day going so far?",
+      "classification": {
+        "permanentTraits": [],
+        "temporaryTraits": [
+          "Neutral:50",
+          "General:casual"
+        ],
+        "responseType": "Casual",
+        "hash": ""
+      },
+      "timestamp": 1748113249660
+    }
+  ],
+  "lastUpdated": "2025-05-24T19:00:50.059Z"
+}

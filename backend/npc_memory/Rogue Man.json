@@ -1,0 +1,76 @@
+{
+  "npcId": "Rogue Man",
+  "permanentTraits": {
+    "corePersonality": "Neutral",
+    "learningStyle": "Adaptive",
+    "adaptability": 50,
+    "moralAlignment": "Neutral",
+    "experienceLevel": 1,
+    "lastUpdated": 1748122540523
+  },
+  "temporaryTraits": {
+    "currentMood": "mood:casual",
+    "conversationFocus": "focus:brief",
+    "sessionContext": 2,
+    "lastInteraction": 1748122540998
+  },
+  "interactionHistory": [
+    {
+      "input": "aur madarchod",
+      "response": "*I pause, taken aback by the aggression and unfamiliar language* I'm not sure I understand what you're trying to say. It sounds like you're speaking a different language or using words I'm not familiar with. Could you please explain or rephrase what you mean? I'm here to listen and help if I can. *I remain neutral, trying to de-escalate the situation and focus on understanding*",
+      "classification": {
+        "permanentTraits": [],
+        "temporaryTraits": [
+          "Neutral:50",
+          "General:casual"
+        ],
+        "responseType": "Casual",
+        "hash": ""
+      },
+      "timestamp": 1748122458122
+    },
+    {
+      "input": "yo",
+      "response": "*pauses, looking at you with a neutral expression* I'm not sure what you're trying to communicate with that. Could you elaborate or provide more context? I'm trying to understand what you're after, but I need a bit more information to help. *tilts head slightly, showing a hint of curiosity*",
+      "classification": {
+        "permanentTraits": [],
+        "temporaryTraits": [
+          "mood:neutral",
+          "focus:unfocused"
+        ],
+        "responseType": "Casual",
+        "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "timestamp": 1748122528361
+    },
+    {
+      "input": "sup",
+      "response": "Not much, just taking it all in. I'm still getting used to this place and how things work around here. You seem like someone who knows the ropes, though. What's the best way to get settled in and find what you're looking for?",
+      "classification": {
+        "permanentTraits": [],
+        "temporaryTraits": [
+          "mood:neutral",
+          "focus:casual"
+        ],
+        "responseType": "Casual",
+        "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "timestamp": 1748122531209
+    },
+    {
+      "input": "cuz",
+      "response": "You seem a bit vague about what you're looking for. That's okay, I'm here to help. Let me try to clarify - are you searching for information, needing a favor, or perhaps looking for something more... adventurous? Give me a hint, and I'll do my best to assist you.",
+      "classification": {
+        "permanentTraits": [],
+        "temporaryTraits": [
+          "mood:casual",
+          "focus:brief"
+        ],
+        "responseType": "Casual",
+        "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "timestamp": 1748122540998
+    }
+  ],
+  "lastUpdated": "2025-05-24T21:35:41.385Z"
+}

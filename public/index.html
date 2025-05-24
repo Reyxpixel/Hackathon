@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NPChain</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="header-left">
+            <div class="logo-container">
+                <div class="logo-icon">⚡</div>
+                <h1>NPChain</h1>
+            </div>
+            <button id="perception-btn" class="perception-btn">PERCEPTION</button>
+            <div id="perception-dropdown" class="perception-dropdown">
+                <div class="perception-content">
+                    <h4>User Attributes</h4>
+                    
+                    <div class="attribute-section">
+                        <h5>Traits</h5>
+                        <div class="word-attributes">
+                            <span class="word-attribute">Curious</span>
+                            <span class="word-attribute">Analytical</span>
+                            <span class="word-attribute">Creative</span>
+                            <span class="word-attribute">Persistent</span>
+                        </div>
+                    </div>
+                    
+                    <div class="attribute-section">
+                        <h5>Progress</h5>
+                        <div class="progress-attributes">
+                            <div class="progress-item">
+                                <span class="progress-label">Reputation</span>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 75%"></div>
+                                </div>
+                                <span class="progress-value">75%</span>
+                            </div>
+                            <div class="progress-item">
+                                <span class="progress-label">Trust Level</span>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 60%"></div>
+                                </div>
+                                <span class="progress-value">60%</span>
+                            </div>
+                            <div class="progress-item">
+                                <span class="progress-label">Experience</span>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 40%"></div>
+                                </div>
+                                <span class="progress-value">40%</span>
+                            </div>
+                            <div class="progress-item">
+                                <span class="progress-label">Influence</span>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 85%"></div>
+                                </div>
+                                <span class="progress-value">85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-right">
+            <div class="status-indicator"></div>
+            <span>Neural Protocol Demo</span>
+        </div>
+    </div>
+    
+    <div class="container">
+        <!-- 3D Model Viewer Section -->
+        <div class="model-section">
+            <div class="model-content">
+                <div class="model-viewer">
+                    <canvas id="three-canvas"></canvas>
+                    <div class="model-status" id="model-status"></div>
+                </div>
+                
+                <div class="model-info">
+                    <h2 id="npc-name">Loading...</h2>
+                    <p id="npc-description">Select an NPC to start chatting</p>
+                    
+                    <div class="npc-attributes">
+                        <span class="attribute-tag" id="attr1">Mystical</span>
+                        <span class="attribute-tag" id="attr2">Wise</span>
+                        <span class="attribute-tag" id="attr3">Ancient</span>
+                        <span class="attribute-tag" id="attr4">Powerful</span>
+                    </div>
+                    
+                    <div class="model-navigation">
+                        <button class="nav-arrow left-arrow" id="prev-npc">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="15,18 9,12 15,6"></polyline>
+                            </svg>
+                        </button>
+                        <div class="npc-counter">
+                            <span id="current-npc">1</span> / <span id="total-npcs">5</span>
+                        </div>
+                        <button class="nav-arrow right-arrow" id="next-npc">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="9,18 15,12 9,6"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Chat Interface Section -->
+        <div class="chat-section">
+            <div class="chat-header">
+                <h3>Chat with <span id="chat-npc-name">NPC</span></h3>
+                <button id="clear-chat" class="clear-btn">Clear Chat</button>
+            </div>
+            
+            <div class="chat-container" id="chat-container">
+                <div class="chat-background-gradient"></div>
+                <div class="chat-fade-top"></div>
+                <div class="chat-content">
+                    <div class="welcome-message">
+                        <div class="message npc-message">
+                            <div class="message-content">
+                                <p id="welcome-text">Hello! I'm ready to chat with you.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-fade-bottom"></div>
+            </div>
+            
+            <div class="chat-input-container">
+                <div class="input-wrapper">
+                    <input type="text" id="chat-input" placeholder="Type your message...">
+                    <button id="send-btn" class="send-btn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="22" y1="2" x2="11" y2="13"></line>
+                            <polygon points="22,2 15,22 11,13 2,9"></polygon>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loading-overlay">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <p>Loading NPC...</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

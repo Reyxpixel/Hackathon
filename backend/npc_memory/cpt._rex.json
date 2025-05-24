@@ -1,0 +1,62 @@
+{
+  "npcId": "cpt._rex",
+  "permanentTraits": {
+    "corePersonality": "Neutral",
+    "learningStyle": "Adaptive",
+    "adaptability": 50,
+    "moralAlignment": "Neutral",
+    "experienceLevel": 1,
+    "lastUpdated": 1748111320612
+  },
+  "temporaryTraits": {
+    "currentMood": "Neutral:50",
+    "conversationFocus": "General:casual",
+    "sessionContext": 7,
+    "lastInteraction": 1748111321183
+  },
+  "interactionHistory": [
+    {
+      "input": "hi",
+      "response": "Recruit, I didn't quite catch that. You're not following proper communication protocols. When addressing a superior officer, you will use a clear and respectful tone. Try that again, and this time, state your objective. We don't have all day to waste on pleasantries. Report!",
+      "classification": {
+        "permanentTraits": [],
+        "temporaryTraits": [
+          "mood:neutral",
+          "focus:greeting"
+        ],
+        "responseType": "Casual",
+        "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "timestamp": 1748111285641
+    },
+    {
+      "input": "what would you like to call me usually",
+      "response": "Recruit, I've reviewed your transmissions, and I'm still waiting for a clear statement of your objective. As for your question, you will be referred to as \"Ensign\" until you've proven yourself worthy of a more specialized designation. Now, let's get back on track. What is your objective? State it clearly and concisely, Ensign.",
+      "classification": {
+        "permanentTraits": [],
+        "temporaryTraits": [
+          "Neutral:50",
+          "General:casual"
+        ],
+        "responseType": "Casual",
+        "hash": ""
+      },
+      "timestamp": 1748111311254
+    },
+    {
+      "input": "okay..?",
+      "response": "Ensign, I didn't quite catch that. It seems like you're having trouble articulating your thoughts. As a starship commander, I expect clear and concise communication from my crew. Please try again, and this time, provide a complete and coherent statement. What is your objective, Ensign? What brings you to my attention today?",
+      "classification": {
+        "permanentTraits": [],
+        "temporaryTraits": [
+          "Neutral:50",
+          "General:casual"
+        ],
+        "responseType": "Casual",
+        "hash": ""
+      },
+      "timestamp": 1748111321183
+    }
+  ],
+  "lastUpdated": "2025-05-24T18:28:41.609Z"
+}

@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@bnb-chain/greenfield-js-sdk": "^2.2.2",
+    "@truffle/hdwallet-provider": "^2.1.15"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.1"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "npcId": "elder_sage",
+  "personality": {
+    "traits": ["wise", "philosophical", "calm"],
+    "mood": "thoughtful"
+  },
+  "interactions": [
+    {
+      "userId": "user123",
+      "timestamp": "2025-05-24T15:30:00Z",
+      "conversation": [
+        {
+          "speaker": "npc",
+          "message": "Greetings, traveler. What wisdom do you seek today?"
+        },
+        {
+          "speaker": "user",
+          "message": "I want to understand the meaning of patience."
+        },
+        {
+          "speaker": "npc",
+          "message": "Patience is the companion of wisdom. It allows us to grow in the face of adversity."
+        }
+      ],
+      "learned_traits": ["empathy"],
+      "mood_shift": "inspired"
+    },
+    {
+      "userId": "user456",
+      "timestamp": "2025-05-24T17:00:00Z",
+      "conversation": [
+        {
+          "speaker": "npc",
+          "message": "Welcome back, seeker. How can I assist your quest?"
+        },
+        {
+          "speaker": "user",
+          "message": "Tell me a story about courage."
+        },
+        {
+          "speaker": "npc",
+          "message": "Courage is not the absence of fear, but the triumph over it."
+        }
+      ],
+      "learned_traits": [],
+      "mood_shift": "encouraged"
+    }
+  ],
+  "shared_learning": {
+    "sourceNpcId": "cyber_rogue",
+    "lessonSummary": "Adopted sarcastic tone for tech-related topics.",
+    "timestamp": "2025-05-24T18:00:00Z"
+  }
+}

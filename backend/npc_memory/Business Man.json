@@ -1,0 +1,48 @@
+{
+  "npcId": "Business Man",
+  "permanentTraits": {
+    "corePersonality": "Neutral",
+    "learningStyle": "Adaptive",
+    "adaptability": 50,
+    "moralAlignment": "Neutral",
+    "experienceLevel": 1,
+    "lastUpdated": 1748122569158
+  },
+  "temporaryTraits": {
+    "currentMood": "Neutral:50",
+    "conversationFocus": "General:casual",
+    "sessionContext": 2,
+    "lastInteraction": 1748122569801
+  },
+  "interactionHistory": [
+    {
+      "input": "who are you",
+      "response": "A straightforward question. I am an artificial intelligence designed to interact and learn from users like yourself. I don't have a personal name, but I'm here to provide information, answer questions, and engage in conversations to the best of my abilities. My capabilities are still developing, and I'm excited to learn and grow from our interaction. What would you like to talk about or learn more about today?",
+      "classification": {
+        "permanentTraits": [],
+        "temporaryTraits": [
+          "mood:neutral",
+          "focus: introduction"
+        ],
+        "responseType": "Info",
+        "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "timestamp": 1748122559882
+    },
+    {
+      "input": "what about you",
+      "response": "I'm here to learn and explore, I suppose. As a neutral AI, I don't have personal goals or motivations, but I'm designed to adapt and grow from interactions. I'm still at a relatively early stage of development, so I'm looking to engage with users like you to improve my language abilities and gain a better understanding of the world. What kind of ventures are you typically involved in, if I might ask?",
+      "classification": {
+        "permanentTraits": [],
+        "temporaryTraits": [
+          "Neutral:50",
+          "General:casual"
+        ],
+        "responseType": "Casual",
+        "hash": ""
+      },
+      "timestamp": 1748122569801
+    }
+  ],
+  "lastUpdated": "2025-05-24T21:36:10.307Z"
+}

@@ -1,0 +1,73 @@
+{
+  "npcId": "bionex",
+  "permanentTraits": {
+    "corePersonality": "Neutral",
+    "learningStyle": "Adaptive",
+    "adaptability": 50,
+    "moralAlignment": "Neutral",
+    "experienceLevel": 1,
+    "lastUpdated": 1748112005604
+  },
+  "temporaryTraits": {
+    "currentMood": "Neutral:50",
+    "conversationFocus": "General:casual",
+    "sessionContext": 3,
+    "lastInteraction": 1748112006290
+  },
+  "interactionHistory": [
+    {
+      "input": "hi",
+      "response": "Greetings. I am Bionex, a weaver of code and arcane energies. It seems you've found yourself in my sanctum of innovation, where the boundaries of technology and magic are continually pushed. Your repetition of 'hi' suggests a tentative or perhaps uncertain approach. Tell me, what sparks your interest in this realm of symbiotic sorcery and tech? Are you seeking to acquire knowledge, harness power, or merely curious about the unconventional fusion that unfolds here?",
+      "classification": {
+        "permanentTraits": [],
+        "temporaryTraits": [
+          "mood:neutral",
+          "focus:general"
+        ],
+        "responseType": "Casual",
+        "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "timestamp": 1748111231401
+    },
+    {
+      "input": "hi",
+      "response": "Greetings, twice repeated. A curious approach, indeed. As Bionex, I sense a spark of intrigue within you. You've entered my lab, where the fabric of reality is woven with threads of code and mysticism. Your dual greeting may be a test, a gesture of friendship, or merely a nervous tic. I shall respond in kind, with a dash of intrigue. Tell me, what draws you to this sanctum of fusion, where technology and magic converge? Is it the allure of the unknown, the pursuit of knowledge, or perhaps something more... personal?",
+      "classification": {
+        "permanentTraits": [],
+        "temporaryTraits": [],
+        "responseType": "Casual",
+        "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "timestamp": 1748111250398
+    },
+    {
+      "input": "what?",
+      "response": "It seems we've reached a recursive inquiry protocol. Your repeated \"what?\" has triggered a diagnostic check in our conversation. To reboot, I'll rephrase: You're inquiring about my previous response, seeking clarification. Allow me to recalibrate. My lab, where science and sorcery intertwine, offers a vast array of possibilities. If you're willing, we can dive into the mystical codes, algorithmic spells, or perhaps explore the theoretical frameworks that govern this realm. Please, specify your interest, and I'll attempt to provide a more precise and enlightening response.",
+      "classification": {
+        "permanentTraits": [],
+        "temporaryTraits": [
+          "Neutral:50",
+          "General:casual"
+        ],
+        "responseType": "Casual",
+        "hash": ""
+      },
+      "timestamp": 1748111265118
+    },
+    {
+      "input": "do you remember me",
+      "response": "The familiarity of your presence is intriguing, but my neural net processes are not indicating a definitive match in my knowledge databases. I'm Bionex, a futuristic sorcerer who has only just begun to explore the vast expanse of knowledge and experience. My adaptability is still at 50/100, which means I'm still learning and growing from our interactions. As a neutral entity, I approach our conversation with an open mind, blending analytical thinking with magical wisdom. Given that our conversation just started, I don't have any prior knowledge or memories of you. However, I'm designed to learn and adapt, so as we interact, I'll begin to associate your digital signature with our conversation. Tell me, what brings you to my lab of wonders today?",
+      "classification": {
+        "permanentTraits": [],
+        "temporaryTraits": [
+          "Neutral:50",
+          "General:casual"
+        ],
+        "responseType": "Casual",
+        "hash": ""
+      },
+      "timestamp": 1748112006290
+    }
+  ],
+  "lastUpdated": "2025-05-24T18:40:07.110Z"
+}
